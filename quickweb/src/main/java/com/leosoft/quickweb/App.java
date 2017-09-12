@@ -1,5 +1,6 @@
 package com.leosoft.quickweb;
 
+import org.springframework.boot.Banner.Mode;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class App {
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(App.class);
-        app.setShowBanner(false);
+        app.setBannerMode(Mode.OFF);
         app.run(args);
     }
 
