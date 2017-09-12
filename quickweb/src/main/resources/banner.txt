@@ -1,0 +1,4 @@
+##########################################
+name:${application.title}
+version:${application.formatted-version}
+spring-boot:${spring-boot.version}
